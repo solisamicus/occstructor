@@ -1,0 +1,592 @@
+
+========================================
+Time: 2025-09-18 02:27:42
+Line: 21
+Code Count: 13
+Name Count: 12
+
+CODES:
+[0] 2-03-01-00
+[1] 2-03-02-00
+[2] 2-03-03-00
+[3] 2-03-04-00
+[4] 2-03-05-00
+[5] 2-03-06-01
+[6] 2-03-06-02
+[7] 2-03-06-03
+[8] 2-03-07-01
+[9] 2-03-07-02
+[10] 2-03-08-01
+[11] 2-03-08-02
+[12] 2-03-09-00
+
+
+RAW CODES:
+2-03-01-00
+
+
+2-03-02-00
+
+
+2-03-03-00
+
+
+2-03-04-00
+
+
+2-03-05-00
+
+
+2-03-06-01
+2-03-06-02
+2-03-06-03
+
+2-03-07-01
+2-03-07-02
+
+2-03-08-01
+
+2-03-08-02
+
+
+2-03-09-00
+
+NAMES:
+[0] 土壤肥料技术人员
+[1] 农业技术指导人员
+[2] 植物保护技术人员
+[3] 园艺技术人员
+[4] 作物遗传育种栽培技术人员
+[5] 兽医兽药技术人员
+[6] 宠物医师
+[7] 畜牧技术人员
+[8] 草业技术人员
+[9] 水产养殖技术人员
+[10] 渔业资源开发利用技术人员
+[11] 农业工程技术人员
+
+
+RAW NAMES:
+土 壤 肥 料 技 术
+人员
+
+农 业 技 术 指 导
+人员
+
+植物保护技术人
+员 L
+
+园艺技术人员 L
+
+作物遗传育种栽
+培技术人员
+
+兽医
+兽药技术人员
+宠物医师
+
+畜牧技术人员
+草业技术人员 L
+
+水 产 养 殖 技 术
+人员
+渔业资源开发利
+用技术人员
+
+农 业 工 程 技 术
+人员
+
+SQL INSERT TEMPLATE:
+-- Line 21 manual insert
+INSERT INTO occupations (seq, name, level, parent_seq) VALUES ('2-03-01-00', '土壤肥料技术人员', 4, '2-03-01');
+INSERT INTO occupations (seq, name, level, parent_seq) VALUES ('2-03-02-00', '农业技术指导人员', 4, '2-03-02');
+INSERT INTO occupations (seq, name, level, parent_seq) VALUES ('2-03-03-00', '植物保护技术人员', 4, '2-03-03');
+INSERT INTO occupations (seq, name, level, parent_seq) VALUES ('2-03-04-00', '园艺技术人员', 4, '2-03-04');
+INSERT INTO occupations (seq, name, level, parent_seq) VALUES ('2-03-05-00', '作物遗传育种栽培技术人员', 4, '2-03-05');
+INSERT INTO occupations (seq, name, level, parent_seq) VALUES ('2-03-06-01', '兽医兽药技术人员', 4, '2-03-06');
+INSERT INTO occupations (seq, name, level, parent_seq) VALUES ('2-03-06-02', '宠物医师', 4, '2-03-06');
+INSERT INTO occupations (seq, name, level, parent_seq) VALUES ('2-03-06-03', '畜牧技术人员', 4, '2-03-06');
+INSERT INTO occupations (seq, name, level, parent_seq) VALUES ('2-03-07-01', '草业技术人员', 4, '2-03-07');
+INSERT INTO occupations (seq, name, level, parent_seq) VALUES ('2-03-07-02', '水产养殖技术人员', 4, '2-03-07');
+INSERT INTO occupations (seq, name, level, parent_seq) VALUES ('2-03-08-01', '渔业资源开发利用技术人员', 4, '2-03-08');
+INSERT INTO occupations (seq, name, level, parent_seq) VALUES ('2-03-08-02', '农业工程技术人员', 4, '2-03-08');
+-- Missing name for code: 2-03-09-00
+
+
+========================================
+Time: 2025-09-18 02:28:08
+Line: 31
+Code Count: 13
+Name Count: 12
+
+CODES:
+[0] 2-07-01-00
+[1] 2-07-02-00
+[2] 2-07-03-00
+[3] 2-07-04-00
+[4] 2-07-05-00
+[5] 2-07-06-01
+[6] 2-07-06-02
+[7] 2-07-07-00
+[8] 2-07-08-00
+[9] 2-07-09-00
+[10] 2-07-10-00
+[11] 2-07-11-01
+[12] 2-07-11-02
+
+
+RAW CODES:
+2-07-01-00
+
+2-07-02-00
+2-07-03-00
+
+2-07-04-00
+2-07-05-00
+
+2-07-06-01
+2-07-06-02
+2-07-07-00
+
+2-07-08-00
+
+2-07-09-00
+
+2-07-10-00
+
+2-07-11-01
+2-07-11-02
+
+NAMES:
+[0] 监察人员
+[1] 法官
+[2] 检察官
+[3] 律师
+[4] 公证员
+[5] 法医物证鉴定人员
+[6] 审判辅助人员
+[7] 检察辅助人员
+[8] 法律顾问
+[9] 宗教教职人员
+[10] 社会工作者
+[11] 社会组织专业人员
+
+
+RAW NAMES:
+监察人员
+
+法官
+检察官
+
+律师
+公证员
+
+法医
+物证鉴定人员
+审判辅助人员
+
+检察辅助人员
+
+法律顾问
+
+宗教教职人员
+
+社会工作者
+社 会 组 织 专 业
+人员
+
+SQL INSERT TEMPLATE:
+-- Line 31 manual insert
+INSERT INTO occupations (seq, name, level, parent_seq) VALUES ('2-07-01-00', '监察人员', 4, '2-07-01');
+INSERT INTO occupations (seq, name, level, parent_seq) VALUES ('2-07-02-00', '法官', 4, '2-07-02');
+INSERT INTO occupations (seq, name, level, parent_seq) VALUES ('2-07-03-00', '检察官', 4, '2-07-03');
+INSERT INTO occupations (seq, name, level, parent_seq) VALUES ('2-07-04-00', '律师', 4, '2-07-04');
+INSERT INTO occupations (seq, name, level, parent_seq) VALUES ('2-07-05-00', '公证员', 4, '2-07-05');
+INSERT INTO occupations (seq, name, level, parent_seq) VALUES ('2-07-06-01', '法医物证鉴定人员', 4, '2-07-06');
+INSERT INTO occupations (seq, name, level, parent_seq) VALUES ('2-07-06-02', '审判辅助人员', 4, '2-07-06');
+INSERT INTO occupations (seq, name, level, parent_seq) VALUES ('2-07-07-00', '检察辅助人员', 4, '2-07-07');
+INSERT INTO occupations (seq, name, level, parent_seq) VALUES ('2-07-08-00', '法律顾问', 4, '2-07-08');
+INSERT INTO occupations (seq, name, level, parent_seq) VALUES ('2-07-09-00', '宗教教职人员', 4, '2-07-09');
+INSERT INTO occupations (seq, name, level, parent_seq) VALUES ('2-07-10-00', '社会工作者', 4, '2-07-10');
+INSERT INTO occupations (seq, name, level, parent_seq) VALUES ('2-07-11-01', '社会组织专业人员', 4, '2-07-11');
+-- Missing name for code: 2-07-11-02
+
+
+========================================
+Time: 2025-09-18 02:30:27
+Line: 102
+Code Count: 17
+Name Count: 0
+
+CODES:
+[0] 6-11-08-25
+[1] 6-11-08-26
+[2] 6-11-09-01
+[3] 6-11-09-02
+[4] 6-11-09-03
+[5] 6-11-09-04
+[6] 6-11-09-05
+[7] 6-11-10-01
+[8] 6-11-10-02
+[9] 6-11-10-03
+[10] 6-11-10-04
+[11] 6-11-10-05
+[12] 6-11-10-06
+[13] 6-11-10-07
+[14] 6-11-10-08
+[15] 6-11-10-09
+[16] 6-11-10-10
+
+
+RAW CODES:
+6-11-08-25
+6-11-08-26
+
+
+6-11-09-01
+6-11-09-02
+
+6-11-09-03
+6-11-09-04
+6-11-09-05
+
+6-11-10-01
+
+6-11-10-02
+6-11-10-03
+6-11-10-04
+6-11-10-05
+
+6-11-10-06
+6-11-10-07
+6-11-10-08
+6-11-10-09
+6-11-10-10
+
+NAMES:
+
+
+RAW NAMES:
+甘油制造工
+生物质化工产品
+生产工
+
+雷管制造工
+索状爆破器材制
+造工
+火工品装配工
+火工品管理工
+烟花爆竹工
+
+合 成 洗 涤 剂 制
+造工
+肥皂制造工
+化妆品配方师
+化妆品制造工
+口 腔 清 洁 剂 制
+造工
+香料制造工
+调香师
+香精配制工
+火柴制造工
+日用化学用品配
+方师
+
+SQL INSERT TEMPLATE:
+-- Line 102 manual insert
+-- Missing name for code: 6-11-08-25
+-- Missing name for code: 6-11-08-26
+-- Missing name for code: 6-11-09-01
+-- Missing name for code: 6-11-09-02
+-- Missing name for code: 6-11-09-03
+-- Missing name for code: 6-11-09-04
+-- Missing name for code: 6-11-09-05
+-- Missing name for code: 6-11-10-01
+-- Missing name for code: 6-11-10-02
+-- Missing name for code: 6-11-10-03
+-- Missing name for code: 6-11-10-04
+-- Missing name for code: 6-11-10-05
+-- Missing name for code: 6-11-10-06
+-- Missing name for code: 6-11-10-07
+-- Missing name for code: 6-11-10-08
+-- Missing name for code: 6-11-10-09
+-- Missing name for code: 6-11-10-10
+
+
+========================================
+Time: 2025-09-18 02:30:38
+Line: 109
+Code Count: 8
+Name Count: 7
+
+CODES:
+[0] 6-15-07-05
+[1] 6-15-07-06
+[2] 6-15-07-07
+[3] 6-15-08-01
+[4] 6-15-08-02
+[5] 6-15-08-03
+[6] 6-15-08-04
+[7] 6-15-08-05
+
+
+RAW CODES:
+6-15-07-05
+6-15-07-06
+6-15-07-07
+
+6-15-08-01
+6-15-08-02
+6-15-08-03
+6-15-08-04
+6-15-08-05
+
+NAMES:
+[0] 石墨化工炭素制品工
+[1] 炭素特种材料工
+[2] 人工合成晶体工
+[3] 高岭土加工工
+[4] 珍珠岩加工工
+[5] 石棉制品工
+[6] 云母制品工
+
+
+RAW NAMES:
+石墨化工
+炭素制品工
+炭素特种材料工
+
+人工合成晶体工
+高岭土加工工
+珍珠岩加工工
+石棉制品工
+云母制品工
+
+SQL INSERT TEMPLATE:
+-- Line 109 manual insert
+INSERT INTO occupations (seq, name, level, parent_seq) VALUES ('6-15-07-05', '石墨化工炭素制品工', 4, '6-15-07');
+INSERT INTO occupations (seq, name, level, parent_seq) VALUES ('6-15-07-06', '炭素特种材料工', 4, '6-15-07');
+INSERT INTO occupations (seq, name, level, parent_seq) VALUES ('6-15-07-07', '人工合成晶体工', 4, '6-15-07');
+INSERT INTO occupations (seq, name, level, parent_seq) VALUES ('6-15-08-01', '高岭土加工工', 4, '6-15-08');
+INSERT INTO occupations (seq, name, level, parent_seq) VALUES ('6-15-08-02', '珍珠岩加工工', 4, '6-15-08');
+INSERT INTO occupations (seq, name, level, parent_seq) VALUES ('6-15-08-03', '石棉制品工', 4, '6-15-08');
+INSERT INTO occupations (seq, name, level, parent_seq) VALUES ('6-15-08-04', '云母制品工', 4, '6-15-08');
+-- Missing name for code: 6-15-08-05
+
+
+========================================
+Time: 2025-09-18 02:31:44
+Line: 139
+Code Count: 23
+Name Count: 22
+
+CODES:
+[0] 6-31-01-03
+[1] 6-31-01-04
+[2] 6-31-01-05
+[3] 6-31-01-06
+[4] 6-31-01-07
+[5] 6-31-01-08
+[6] 6-31-01-09
+[7] 6-31-01-10
+[8] 6-31-02-01
+[9] 6-31-02-02
+[10] 6-31-02-03
+[11] 6-31-02-04
+[12] 6-31-02-05
+[13] 6-31-03-01
+[14] 6-31-03-02
+[15] 6-31-03-03
+[16] 6-31-03-04
+[17] 6-31-03-05
+[18] 6-31-03-06
+[19] 6-31-04-00
+[20] 6-31-05-00
+[21] 6-31-06-00
+[22] 6-31-07-01
+
+
+RAW CODES:
+6-31-01-03
+6-31-01-04
+6-31-01-05
+6-31-01-06
+
+6-31-01-07
+6-31-01-08
+6-31-01-09
+6-31-01-10
+
+6-31-02-01
+6-31-02-02
+
+6-31-02-03
+
+6-31-02-04
+
+6-31-02-05
+
+
+6-31-03-01
+6-31-03-02
+6-31-03-03
+6-31-03-04
+6-31-03-05
+6-31-03-06
+
+6-31-04-00
+
+
+6-31-05-00
+
+
+6-31-06-00
+
+
+6-31-07-01
+
+NAMES:
+[0] 电工仪器仪表维修工
+[1] 锅炉设备检修工
+[2] 汽轮机和水轮机检修工
+[3] 电机检修工
+[4] 变电设备检修工
+[5] 工程机械维修工
+[6] 机电设备维修工
+[7] 船舶修理工
+[8] 航空器机械维护员
+[9] 航空器部件修理工
+[10] 航空发动机修理工
+[11] 航空器外场维护员
+[12] 化学检验员
+[13] 物理性能检验员
+[14] 生化检验员
+[15] 无损检测员
+[16] 质检员
+[17] 试验员
+[18] 称重计量工
+[19] 包装工
+[20] 安全员
+[21] 工业机器人系统运维员
+
+
+RAW NAMES:
+电工
+仪器仪表维修工
+锅炉设备检修工
+汽轮机和水轮机
+检修工
+电机检修工
+变电设备检修工
+工程机械维修工
+机电设备维修工
+
+船舶修理工
+航 空 器 机 械 维
+护员
+航 空 器 部 件 修
+理工
+航 空 发 动 机 修
+理工
+航 空 器 外 场 维
+护员
+
+化学检验员
+物理性能检验员
+生化检验员
+无损检测员
+质检员
+试验员
+
+称重计量工
+
+
+包装工
+
+
+安全员
+
+
+工业机器人系统
+运维员 S
+
+SQL INSERT TEMPLATE:
+-- Line 139 manual insert
+INSERT INTO occupations (seq, name, level, parent_seq) VALUES ('6-31-01-03', '电工仪器仪表维修工', 4, '6-31-01');
+INSERT INTO occupations (seq, name, level, parent_seq) VALUES ('6-31-01-04', '锅炉设备检修工', 4, '6-31-01');
+INSERT INTO occupations (seq, name, level, parent_seq) VALUES ('6-31-01-05', '汽轮机和水轮机检修工', 4, '6-31-01');
+INSERT INTO occupations (seq, name, level, parent_seq) VALUES ('6-31-01-06', '电机检修工', 4, '6-31-01');
+INSERT INTO occupations (seq, name, level, parent_seq) VALUES ('6-31-01-07', '变电设备检修工', 4, '6-31-01');
+INSERT INTO occupations (seq, name, level, parent_seq) VALUES ('6-31-01-08', '工程机械维修工', 4, '6-31-01');
+INSERT INTO occupations (seq, name, level, parent_seq) VALUES ('6-31-01-09', '机电设备维修工', 4, '6-31-01');
+INSERT INTO occupations (seq, name, level, parent_seq) VALUES ('6-31-01-10', '船舶修理工', 4, '6-31-01');
+INSERT INTO occupations (seq, name, level, parent_seq) VALUES ('6-31-02-01', '航空器机械维护员', 4, '6-31-02');
+INSERT INTO occupations (seq, name, level, parent_seq) VALUES ('6-31-02-02', '航空器部件修理工', 4, '6-31-02');
+INSERT INTO occupations (seq, name, level, parent_seq) VALUES ('6-31-02-03', '航空发动机修理工', 4, '6-31-02');
+INSERT INTO occupations (seq, name, level, parent_seq) VALUES ('6-31-02-04', '航空器外场维护员', 4, '6-31-02');
+INSERT INTO occupations (seq, name, level, parent_seq) VALUES ('6-31-02-05', '化学检验员', 4, '6-31-02');
+INSERT INTO occupations (seq, name, level, parent_seq) VALUES ('6-31-03-01', '物理性能检验员', 4, '6-31-03');
+INSERT INTO occupations (seq, name, level, parent_seq) VALUES ('6-31-03-02', '生化检验员', 4, '6-31-03');
+INSERT INTO occupations (seq, name, level, parent_seq) VALUES ('6-31-03-03', '无损检测员', 4, '6-31-03');
+INSERT INTO occupations (seq, name, level, parent_seq) VALUES ('6-31-03-04', '质检员', 4, '6-31-03');
+INSERT INTO occupations (seq, name, level, parent_seq) VALUES ('6-31-03-05', '试验员', 4, '6-31-03');
+INSERT INTO occupations (seq, name, level, parent_seq) VALUES ('6-31-03-06', '称重计量工', 4, '6-31-03');
+INSERT INTO occupations (seq, name, level, parent_seq) VALUES ('6-31-04-00', '包装工', 4, '6-31-04');
+INSERT INTO occupations (seq, name, level, parent_seq) VALUES ('6-31-05-00', '安全员', 4, '6-31-05');
+INSERT INTO occupations (seq, name, level, parent_seq) VALUES ('6-31-06-00', '工业机器人系统运维员', 4, '6-31-06');
+-- Missing name for code: 6-31-07-01
+
+
+========================================
+Time: 2025-09-18 02:31:45
+Line: 142
+Code Count: 4
+Name Count: 6
+
+CODES:
+[0] 7-01-00-00
+[1] 7-02-00-00
+[2] 7-03-00-00
+[3] 7-04-00-00
+
+
+RAW CODES:
+7-01-00-00
+
+
+7-02-00-00
+
+
+7-03-00-00
+
+
+7-04-00-00
+
+NAMES:
+[0] 军官
+[1] 警官
+[2] 军士
+[3] 警士
+[4] 义务兵
+[5] 文职人员
+
+
+RAW NAMES:
+军官  (警官)
+
+
+军士  (警士)
+
+
+义务兵
+
+
+文职人员
+
+SQL INSERT TEMPLATE:
+-- Line 142 manual insert
+INSERT INTO occupations (seq, name, level, parent_seq) VALUES ('7-01-00-00', '军官', 4, '7-01-00');
+INSERT INTO occupations (seq, name, level, parent_seq) VALUES ('7-02-00-00', '警官', 4, '7-02-00');
+INSERT INTO occupations (seq, name, level, parent_seq) VALUES ('7-03-00-00', '军士', 4, '7-03-00');
+INSERT INTO occupations (seq, name, level, parent_seq) VALUES ('7-04-00-00', '警士', 4, '7-04-00');
+
